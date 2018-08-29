@@ -1,0 +1,65 @@
+/*==================================
+=            Media Queries         =
+===================================*/
+@media (max-width: 20.625em){
+	.l-container{
+		padding: 0 0.625em;
+	}
+	.form__input--even{
+		margin-left: 0; 
+		margin-right: 0; 
+	}
+}
+
+@media (min-width: 20.7rem) and (max-width: 42.49rem){
+	.l-container{
+		padding: 0 1.25em;
+	}
+	.form__input--even{
+		margin-left: 0.625em; 
+		margin-right: 0.625em; 
+	}
+}
+
+@media (min-width: 39.5rem){
+	.form__input{
+		float: left;
+	}
+	.form__input--even{
+		float: right;
+	}
+	.select{
+		margin-left: 0.625em !important;
+		margin-right: 0.625em !important;
+	}
+}
+
+@media (min-width: 42.5rem){
+	.hero, .form__title, .footer__title{
+		font-size: 1.2rem;
+	}
+	.l-container{
+		@include container;
+	}
+	.form, .article__paragraph{
+		@include span(12);
+	}
+	.form__body{
+		text-align: left;
+	}
+	.select{
+		margin-right: 0 !important;
+	}
+	.article{
+		@include span(6);
+	}
+	.thumbnail{
+		@include span(4);
+	}
+	.footer__article{
+		@include span(6);
+	}
+	.footer{
+		height: 37.5em; /* 600/16 */
+	}
+}

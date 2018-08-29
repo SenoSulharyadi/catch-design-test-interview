@@ -1,0 +1,29 @@
+@import 'susy';
+
+// Sass Map
+$susy: (
+	flow: ltr,
+	container-position: center,
+ last-flow: to,
+	container: 37.5rem,
+ columns: 12,
+ // column-width: 60px, // static math
+ gutters: 1/1,
+ math: fluid,
+ output: float,
+ gutter-position: split,
+ global-box-sizing: border-box,
+	debug: (
+	 // image: show,
+	 // color: blue,
+	 // output: overlay,
+	 // toggle: top right
+ ),
+ use-custom: (
+ //  background-image: true,
+ //  background-options: false,
+  box-sizing: true,
+  // clearfix: true,
+ //  rem: true,
+ )
+);

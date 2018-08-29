@@ -1,0 +1,60 @@
+extends partials/main
+
+block pageTitle
+	title Catch Test | Home page
+
+block bodyContent
+	div.container.l-container
+		div.hero
+			h1.hero__text
+				| Lorem ipsum dolor sit amet, consectetur adipisicing elit. In repellat, aspernatur dignissimos.
+	
+		// Form Registration
+		div.form.clearfix
+			h2.form__title
+				| Registration Form
+			form.form__body
+				input.form__input(type="text" placeholder="First Name")
+				input.form__input.form__input--even(type="text" placeholder="Last Name")
+				input.form__input(type="text" placeholder="Email Address")
+				div.select.form__input--even
+					select.select__body(name="City")
+						option(value="City") City
+						option(value="Auckland") Auckland
+						option(value="Christchurch") Christchurch
+						option(value="Wellington") Wellington
+				div.clearfix
+					input.form__button(type="submit" value="Submit")
+
+		div.lineBreak.clearfix
+		
+		// Articles
+		div.clearfix
+		div.article
+			img(src="http://loremflickr.com/320/200", alt="Random")
+			p.
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, ea nobis at est fugiat necessitatibus consequuntur, molestiae ipsum.
+		div.article
+			img(src="http://loremflickr.com/320/200", alt="Random")
+			p.
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, ea nobis at est fugiat necessitatibus consequuntur, molestiae ipsum.
+
+		img.thumbnail(src="http://loremflickr.com/320/200", alt="Random")
+		img.thumbnail(src="http://loremflickr.com/320/200", alt="Random")
+		img.thumbnail(src="http://loremflickr.com/320/200", alt="Random")
+		p.article__paragraph
+			| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti ipsam quidem provident, magni illum dolore distinctio consectetur odit, deserunt inventore.
+		
+		// Footer
+	div.footer
+		div.footer__wrap.l-container
+			h2.footer__title
+				| Footer Title
+			
+			div.footer__article
+				p.
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate rerum recusandae eligendi excepturi atque eum libero tenetur sit cupiditate consequatur quae laboriosam vero doloremque, accusantium, suscipit ea mollitia minus, reiciendis.
+			
+			div.footer__article
+				p.
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate rerum recusandae eligendi excepturi atque eum libero tenetur sit cupiditate consequatur quae laboriosam vero doloremque, accusantium, suscipit ea mollitia minus, reiciendis.

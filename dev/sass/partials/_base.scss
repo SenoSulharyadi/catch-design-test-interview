@@ -1,0 +1,112 @@
+@import 'normalize';
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body{
+	background-color: $bg-colour;
+	font-family: $font-family;
+	color: rgb(79, 79, 79);
+}
+
+a{
+	color: inherit;
+}
+
+ul{
+	padding: 0px 0px 0px 18px;
+	margin: 0;
+	font-weight: 300;
+	line-height: 26px;
+}
+p{
+	color: rgb(79, 79, 79);
+	margin: 1em 0;
+}
+/*=============================================
+=            BLOCK / ELEMENT STYLE            =
+=============================================*/
+.container{
+	margin-bottom: 8em;
+}
+/* Hero */
+.hero__text{
+	font-weight: 100;
+	text-align: center;
+}
+
+/* Form */
+.form{
+	overflow: auto;
+	clear: both;
+	margin-bottom: 2.25em;
+}
+.form__title{
+	text-align: center;
+}
+.form__body{
+	text-align: center;
+}
+.form__button{
+	width: 16.875em; 
+	margin-top: 0.625em; 
+	margin-bottom: 0.625em; 
+	padding: 0.625rem;
+	background-color: #ecf7ff !important;
+	border: solid 1px #000;
+	border-radius: 0;
+}
+.select {
+	width: 16.875em;
+	overflow: auto;
+ background: url('../assets/arrow.png') 240px 15px no-repeat #f0f0f0;
+	margin: 0.625em auto;
+	-webkit-appearance: none;
+ -moz-appearance: none;
+ appearance: none;
+}
+.select__body {
+	border-radius: 0;
+	-webkit-appearance: none;
+ -moz-appearance: none;
+ appearance: none;
+	width: 16.875em; /* 270/16 */
+	padding: 0.625rem;
+	border: solid 1px #000;
+ background: transparent;
+}
+
+.clearfix{
+	clear: both;
+}
+
+.lineBreak{
+	width: 60%;
+	height: 2px;
+	background-color: #D2D7D3;
+	margin: 2.25em auto;
+}
+
+/* Articles */
+img{
+	width: 100%;
+}
+.thumbnail{
+	margin-top: 0.625em; /* 10/16 */
+}
+.article__paragraph{
+	text-align: center;
+}
+
+/* Footer */
+.footer{
+	background-color: #D2D7D3;
+}
+.footer__wrap{
+	clear: both;
+	overflow: auto;
+}
+.footer__title{
+	margin: 1.25em 0; /* 20/16 */
+	text-align: center;
+}
